@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int sp;
+    printf("enter the number :");
+    scanf("%d",&sp);
+
+    int ep;
+    printf("enter the number :");
+    scanf("%d",&ep);
+
+    int sum=0;
+    do{
+        sum=sum+sp;
+        printf("%d\n",sp);
+        sp=sp+1;
+        
+    }
+    while(sp<=ep);
+    printf("%d",sum);
+    return 0;
+}
