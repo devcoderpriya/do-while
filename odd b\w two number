@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("enter the number :");
+    scanf("%d", &a); // Corrected scanf
+
+    int b;
+    printf("enter the number :");
+    scanf("%d", &b); // Corrected scanf
+
+    do
+    {
+        if(a % 2 != 0) {
+            printf("%d ", a); // Corrected printf to print the value of a
+        }
+        a = a + 1;
+    }
+    while(a <= b);
+
+    printf("\n"); // Added a newline at the end for better output
+
+    return 0;
+}
