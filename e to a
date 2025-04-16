@@ -1,0 +1,13 @@
+#include<stdio.h> 
+int main()
+{
+  char p='e';
+  char q='a';
+  do
+  {
+    printf("%c ", p);
+    p= p - 1;
+  } 
+  while(p >= 'a');
+  return 0;
+}
