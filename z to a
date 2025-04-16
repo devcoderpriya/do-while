@@ -1,0 +1,12 @@
+#include<stdio.h> 
+int main()
+{
+  char p='Z';
+  do
+  {
+    printf("%c ", p);
+    p= p - 1;
+  } 
+  while(p >= 'A');
+  return 0;
+}
