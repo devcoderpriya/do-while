@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the number:");
+    scanf("%d",&a);
+
+    int b;
+    printf("enter the number:");
+    scanf("%d",&b);
+
+    int count=0;
+    int newnum=a+1;
+    do{
+        
+        
+        count=count+1;
+        newnum=newnum+1;
+    }
+    while(newnum<b);
+    printf("%d",count);
+    return 0;
+}
