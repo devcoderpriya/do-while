@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    int r;
+    int arm=0;
+    int c=a;
+    do
+    {
+        r=a%10;
+        arm=(r*r*r)+arm;
+        a=a/10;
+    }
+    while(a>0);
+    if(c==arm){
+        printf("armstong");
+    }
+        else
+        printf("not");
+    
+    
+    return 0;
+}
